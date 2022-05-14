@@ -1,0 +1,17 @@
+POST http://localhost:8080/animal
+Accept: application/json
+Content-Type: application/json
+
+
+{
+  "type" : "DOG",
+  "isSleeping" : false,
+  "name": "Mika"
+}
+
+###
+GET http://localhost:8080/all
+
+###
+POST http://localhost:8080/refresh
+

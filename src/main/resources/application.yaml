@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      username: root
+      password: 1234qwer
+      database: zoo
+      host: 127.0.0.1
+      port: 27017
+
+
+logging:
+  level:
+    com:
+      example: debug
+
+zoo:
+  working-days: MONDAY, SUNDAY
+  open: true
+  animals:
+    asleep-in-winter: CAT, BEAR
