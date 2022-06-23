@@ -1,5 +1,8 @@
-package org.example.Zoo;
+package org.example.Zoo.config;
 
+import org.example.Zoo.model.Animal;
+import org.example.Zoo.repo.AnimalRepo;
+import org.example.Zoo.utils.ProfileConstants;
 import org.example.ZooStarter.SeasonConfigurator;
 import org.example.ZooStarter.ZooProperties;
 import org.springframework.beans.factory.annotation.Autowired;

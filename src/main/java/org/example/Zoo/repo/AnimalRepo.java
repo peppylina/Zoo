@@ -1,5 +1,6 @@
-package org.example.Zoo;
+package org.example.Zoo.repo;
 
+import org.example.Zoo.model.Animal;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.example.Zoo;
+package org.example.Zoo.utils;
 
 public class ProfileConstants {
     public static final String WINTER = "WINTER";

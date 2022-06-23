@@ -1,4 +1,4 @@
-package org.example.Zoo;
+package org.example.Zoo.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

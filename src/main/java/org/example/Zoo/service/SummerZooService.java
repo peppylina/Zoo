@@ -1,5 +1,9 @@
-package org.example.Zoo;
+package org.example.Zoo.service;
 
+import org.example.Zoo.model.Animal;
+import org.example.Zoo.repo.AnimalRepo;
+import org.example.Zoo.service.ZooService;
+import org.example.Zoo.utils.ProfileConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;

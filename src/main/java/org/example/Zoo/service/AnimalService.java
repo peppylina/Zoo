@@ -1,5 +1,7 @@
-package org.example.Zoo;
+package org.example.Zoo.service;
 
+import org.example.Zoo.model.Animal;
+import org.example.Zoo.repo.AnimalRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

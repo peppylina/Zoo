@@ -1,6 +1,10 @@
-package org.example.Zoo;
+package org.example.Zoo.service;
 
 import lombok.extern.slf4j.Slf4j;
+import org.example.Zoo.model.Animal;
+import org.example.Zoo.repo.AnimalRepo;
+import org.example.Zoo.service.ZooService;
+import org.example.Zoo.utils.ProfileConstants;
 import org.example.ZooStarter.ZooProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;

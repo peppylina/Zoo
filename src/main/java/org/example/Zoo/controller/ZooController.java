@@ -1,5 +1,8 @@
-package org.example.Zoo;
+package org.example.Zoo.controller;
 
+import org.example.Zoo.service.ZooService;
+import org.example.Zoo.model.Animal;
+import org.example.Zoo.service.AnimalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
